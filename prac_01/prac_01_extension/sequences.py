@@ -4,11 +4,20 @@ menu = input("(E) - Show even numbers between two numbers\n(O) - Show odd number
              "square numbers between two numbers\n(Q) - Quit program")
 while menu.upper() != "Q":
     if menu.upper() == "E":
-        pass
+        for number in range(number_x, number_y):
+            if number % 2:
+                pass
+            else:
+                print(number)
     elif menu.upper() == "O":
-        pass
+        for number in range(number_x, number_y):
+            if number % 2:
+                print(number)
+            else:
+                pass
     elif menu.upper() == "S":
-        pass
+        for number in range(number_x, number_y):
+            pass
     else:
         print("Invalid selection")
     menu = input("(E) - Show even numbers between two numbers\n(O) - Show odd numbers between two numbers\n(S) - Show "
