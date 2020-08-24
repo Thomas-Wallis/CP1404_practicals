@@ -1,3 +1,4 @@
+from math import sqrt
 number_x = int(input("Please enter the first number"))
 number_y = int(input("Please enter the second number"))
 menu = input("(E) - Show even numbers between two numbers\n(O) - Show odd numbers between two numbers\n(S) - Show "
@@ -17,7 +18,10 @@ while menu.upper() != "Q":
                 pass
     elif menu.upper() == "S":
         for number in range(number_x, number_y):
-            pass
+            if (sqrt(number)) in range(number_x, number_y):
+                print(number)
+            else:
+                pass
     else:
         print("Invalid selection")
     menu = input("(E) - Show even numbers between two numbers\n(O) - Show odd numbers between two numbers\n(S) - Show "
