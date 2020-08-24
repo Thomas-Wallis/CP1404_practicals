@@ -2,6 +2,10 @@ def main():
     score = float(input("Enter score: "))
     result = score_checker(score)
     print(result)
+    import random
+    score = random.randint(0, 100)
+    result = score_checker(score)
+    print(result)
 
 
 def score_checker(score):
