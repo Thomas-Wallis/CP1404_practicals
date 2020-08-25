@@ -18,7 +18,7 @@ while menu.upper() != "Q":
                 pass
     elif menu.upper() == "S":
         for number in range(number_x, number_y):
-            if (sqrt(number)) in range(number_x, number_y):
+            if (sqrt(number) % 1) == 0:
                 print(number)
             else:
                 pass
