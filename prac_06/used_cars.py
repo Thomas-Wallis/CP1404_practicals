@@ -22,6 +22,7 @@ def main():
     limo.drive(115)
     print("Limo odo = {}".format(limo.odometer))
 
+    """Print current Car objects"""
     print(my_car)
     print(limo)
 
