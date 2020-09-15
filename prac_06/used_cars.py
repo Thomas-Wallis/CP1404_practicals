@@ -22,5 +22,8 @@ def main():
     limo.drive(115)
     print("Limo odo = {}".format(limo.odometer))
 
+    print(my_car)
+    print(limo)
+
 
 main()
