@@ -1,7 +1,5 @@
 from prac_06.guitar import Guitar
 
-CURRENT_YEAR = 2020
-VINTAGE = 50
 
 def main():
     guitar_1 = Guitar("Gibson L-5 CES", 1922, 16035.40)
