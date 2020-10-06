@@ -12,5 +12,9 @@ class MilesToKilometresApp(App):
         self.root = Builder.load_file('convert_miles_km.kv')
         return self.root
 
+    def handle_conversion(self, value):
+        """ handles the conversion of miles to kilometres """
+        result = value * 1.609344
+        self.root.ids.output_label.text = str(result)
 
 MilesToKilometresApp().run()
